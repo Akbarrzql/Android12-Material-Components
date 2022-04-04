@@ -1,0 +1,3 @@
+
+rootProject.name = "Android12"
+include ':app'

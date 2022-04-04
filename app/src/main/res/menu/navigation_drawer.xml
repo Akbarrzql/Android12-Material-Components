@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main_item"
+        android:title="Mail">
+        <menu>
+            <item
+                android:id="@+id/inbox_item"
+                android:icon="@drawable/ic_baseline_inbox_24"
+                android:title="Inbox"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/outbox_item"
+                android:icon="@drawable/ic_baseline_send_24"
+                android:title="Outbox"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/favourites_item"
+                android:icon="@drawable/ic_baseline_favorite_border_24"
+                android:title="favorite"
+                android:checkable="true"/>
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/search_item"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search"
+        android:checkable="true"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/rotation_item"
+        android:icon="@drawable/ic_baseline_3d_rotation_24"
+        android:title="3D"
+        android:checkable="true"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/accelerator_item"
+        android:icon="@drawable/ic_baseline_wifi_protected_setup_24"
+        android:title="accelerator"
+        android:checkable="true"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/dashboard_item"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:title="Dashboard"
+        android:checkable="true"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>

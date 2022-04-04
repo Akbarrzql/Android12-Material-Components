@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android12</string>
+    <string name="accept">accept</string>
+    <string name="cancel">cancel</string>
+    <string name="title">Fitur Belum Tersedia</string>
+    <string name="supporting_text">Mohon maaf, untuk saat ini fitur pada menambahkan data belum tersedia. Kami akan menambahkan fitur ini dengan segera, mohon menunggu fitur ini dan kami harap anda cek berkala.</string>
+</resources>
